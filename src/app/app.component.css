@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.body {
+    display: block;
+    width: 1920px;
+    height: 1080px;
+    background-color: greenyellow;
+}
+
+/* NAV */
+
+.nav {
+    
+}
+
+/* CHAT E SOBRE CHAT */
+
+.direita {
+    margin-top: 20px;
+    margin-left: 1530px;
+    position: absolute;
+}
+
+/* APLAUSOS */
+
+.aplausos {
+    position: absolute;
+    margin-left: -2px;
+}
+
+/* RISOS */
+
+.risos {
+    position: absolute;
+    margin-left: -2px;
+}
+
+/* IBOPE */
+
+.ibope {
+    position: absolute;
+}
+
+
+
+
+/* Painel */
+
+.painel {
+    width: 780px;
+    height: 400px;
+    border-radius: 25px;
+    border: 5px solid #09070e;
+    background-color: #2d2c3e;
+    margin-top: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    background-color: #2c2c38;
+    border: 1px solid black;
+    box-shadow: inset 2px 3px 1px rgb(93, 92, 92), 5px 5px 10px rgb(24, 24, 24);
+}
+
+.btn:active {
+    box-shadow: 2px 3px 1px rgb(93, 92, 92), inset 5px 5px 10px rgb(24, 24, 24);
+}
+
+.icone {
+    width: 70px;
+}
+
+.termometro {
+    margin-top: 864px;
+    margin-left: 570px;
+    position:absolute;
+}

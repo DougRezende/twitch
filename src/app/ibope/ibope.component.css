@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    margin: none;
+    padding: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.body {
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    border: 3px solid rgb(81, 75, 128);
+    background-color: rgb(27, 30, 51);
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.633);
+    animation: aparecer 4s;
+}
+
+.ibope {
+    display: inline-block;
+    margin-top: 6px;
+    color: white;
+    font-size: 40px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.icone img {
+    width: 40px;
+    margin: 0 20px 30px 10px;
+}
+
+.texto {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: -82px;
+    margin-left: 70px;
+    max-width: 230px;
+}
+
+.texto-porcentagem {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -74px;
+    margin-left: 280px;
+}
+
+@keyframes aparecer {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}

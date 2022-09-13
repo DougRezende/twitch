@@ -1,0 +1,127 @@
+<div class="body">
+
+  <!-- NAV -->
+    <div class="nav">
+
+      <app-nav></app-nav>
+
+    </div>
+
+  <!-- CHAT E SOBRE O CHAT -->
+
+  <div class="direita">
+
+    <!-- APLAUSOS -->
+    <div *ngIf="mostrarAplausos" class="aplausos">
+
+      <app-aplausos></app-aplausos>
+
+    </div>
+
+    <!-- RISOS -->
+    <div *ngIf="mostrarRisos" class="risos">
+
+      <app-risadas></app-risadas>
+
+    </div>
+
+    <!-- IBOPE -->
+    <div *ngIf="mostrarIbope" class="ibope">
+
+      <app-ibope></app-ibope>
+
+    </div>
+
+  </div>
+
+  <div *ngIf="mostrarTermometro" class="termometro">
+    
+    <app-termometro></app-termometro>
+    
+  </div>
+
+
+</div>
+
+
+
+
+
+<!-- Painel -->
+
+<div class="painel">
+
+    <button type="checkbox" class="btn" (click)="aplausos()">
+        <img class="icone" src="https://www.svgrepo.com/show/401298/clapping-hands.svg">
+    </button>
+
+    <button type="checkbox" class="btn" (click)="risos()">
+        <img class="icone" src="https://www.svgrepo.com/show/209006/laughing-emoji.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/209035/sick.svg">
+    </button>
+
+    <button type="checkbox" class="btn" (click)="ibope()"> 
+        <img class="icone" src="https://www.svgrepo.com/show/400230/fire.svg">
+    </button>
+        
+    <button type="checkbox" class="btn" (click)="termometro()">
+        <img class="icone" src="https://www.svgrepo.com/show/16407/thermometer.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/398328/slot-machine.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/118954/target.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/405157/crossed-swords.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/406655/money-bag.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/15477/coin.svg">
+    </button>
+
+    <button type="checkbox" class="btn btn-lock">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+    <button type="checkbox" class="btn">
+        <img class="icone" src="https://www.svgrepo.com/show/286567/lock.svg">
+    </button>
+
+</div>
+
